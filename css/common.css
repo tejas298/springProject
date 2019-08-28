@@ -47,12 +47,27 @@
 .nav_ul li{
 	padding-bottom: 10px;
 	font-family: "Poppins", Arial, sans-serif;
+	font-weight: 600;
+	color: #666666;
+    font-size: 18px;
 }
 
+.nav_ul li a {
+	color: #666666;
+	text-decoration: none;
+}
+
+.nav_ul li a:hover 
+{
+     color:#1eafed; 
+     cursor:pointer;  
+	 
+}
 .single_post_div{
 	margin: 10px;
 	padding-left: 5px;
 	padding-right: 5px;
+	border-bottom: 1px solid #e6e6e6;
 }
 
 .single_post_h3{
